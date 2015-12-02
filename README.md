@@ -1,4 +1,4 @@
 mrugeshparekh.github.io
 =======================
 
-My Project
+My Portfolio
