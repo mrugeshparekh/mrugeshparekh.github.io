@@ -319,7 +319,7 @@ section.success a.active {
 }
 
 .profile-img::after {
-    background: url("../img/profile.jpg") repeat scroll 0 0 / cover ;
+    background: url("../img/profile.JPG") repeat scroll 0 0 / cover ;
     background-position-x: 45%;
 }
 
