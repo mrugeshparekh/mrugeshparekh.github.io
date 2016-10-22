@@ -289,10 +289,38 @@ section.success a.active {
     border-color: #18bc9c;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
+/*.profile-img {
+    max-height: 200px;
+}*/
+
+.responsive-circle {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    width: 30%;
+}
+.responsive-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+.responsive-circle div {
+    color: white;
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.profile-img::after {
+    background: url("../img/profile.jpg") repeat scroll 0 0 / cover ;
+    background-position-x: 45%;
 }
 
 .btn-outline {
@@ -491,4 +519,18 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+@media(max-width: 601px) {
+
+    .responsive-circle {
+        width: 40%;
+    }
+
 }
