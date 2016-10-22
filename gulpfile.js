@@ -5,7 +5,8 @@ gulp.task('copy-dependency', function() {
     var assets = {
         js: [
             './node_modules/bootstrap/dist/js/bootstrap.js',
-            './node_modules/bootstrap/dist/js/bootstrap.min.js'
+            './node_modules/bootstrap/dist/js/bootstrap.min.js',
+            './node_modules/jquery/dist/jquery.js'
         ],
         css: [
             './node_modules/bootstrap/dist/css/bootstrap.css',
