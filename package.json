@@ -1,0 +1,29 @@
+{
+  "name": "mrugeshparekh.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrugeshparekh/mrugeshparekh.github.io.git"
+  },
+  "keywords": [
+    "mrugesh",
+    "parekh",
+    "mrugeshparekh"
+  ],
+  "author": "mrugeshparekh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrugeshparekh/mrugeshparekh.github.io/issues"
+  },
+  "homepage": "https://github.com/mrugeshparekh/mrugeshparekh.github.io#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "lodash": "^4.16.4"
+  }
+}
