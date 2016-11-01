@@ -12,13 +12,14 @@ $(document).ready(function() {
 
     //Scroll to specific div when click on menu link
     $(".nav > .page-scroll > a").click(function() {
+        $(this).parent().siblings().removeClass('active').end().addClass('active');
         var href = $(this).attr("href");
         scrollToSpecificDiv(href);
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
+    $(".navbar-collapse ul li a").click(function() {
+        $(".navbar-toggle:visible").click();
     });
 });
 
