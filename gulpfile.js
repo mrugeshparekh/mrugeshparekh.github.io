@@ -17,7 +17,6 @@ gulp.task('copy-dependency', function() {
     };
 
     _(assets).forEach(function(assets, type) {
-        //console.log(type);
         gulp.src(assets).pipe(gulp.dest('./' + type + '/'));
     });
 });
