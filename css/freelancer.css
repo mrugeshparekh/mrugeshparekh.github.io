@@ -320,6 +320,10 @@ section.success a.active {
     background-position-x: 45%;
 }
 
+.nav > .page-scroll > a, .navbar-header > a {
+    cursor: pointer;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;

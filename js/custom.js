@@ -4,7 +4,8 @@ $(document).ready(function() {
 
     //Scroll-top when click on main header and back to top button
     $(".navbar-brand, .scroll-top > a").click(function() {
-        var topId = $(this).attr("href");
+        $(".nav > .page-scroll > a").parent().siblings().removeClass('active');
+        var topId = $(this).attr("title");
         $("html body").animate({
             scrollTop: 0 }
         , 1500);    
@@ -13,8 +14,8 @@ $(document).ready(function() {
     //Scroll to specific div when click on menu link
     $(".nav > .page-scroll > a").click(function() {
         $(this).parent().siblings().removeClass('active').end().addClass('active');
-        var href = $(this).attr("href");
-        scrollToSpecificDiv(href);
+        var id = $(this).attr("title");
+        scrollToSpecificDiv(id);
     });
 
     // Closes the Responsive Menu on Menu Item Click
@@ -25,6 +26,6 @@ $(document).ready(function() {
 
 function scrollToSpecificDiv(id) {
     $("html body").animate({
-        scrollTop: $(id).offset().top - 20 }
+        scrollTop: $("#" + id).offset().top - 20 }
         , 1500);
 }
