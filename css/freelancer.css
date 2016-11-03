@@ -324,6 +324,10 @@ section.success a.active {
     cursor: pointer;
 }
 
+.text-align {
+    text-align: justify;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
