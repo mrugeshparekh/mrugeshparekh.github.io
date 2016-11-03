@@ -328,6 +328,12 @@ section.success a.active {
     text-align: justify;
 }
 
+.btn-success:hover {
+    color: #ffffff;
+    background-color: #70B9B0;
+    border-color: #70B9B0;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -536,6 +542,10 @@ footer .footer-below {
 
     .responsive-circle {
         width: 40%;
+    }
+
+    .btn-center {
+        text-align: center;
     }
 
 }
