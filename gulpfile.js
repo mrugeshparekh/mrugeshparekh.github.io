@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var _ = require('lodash');
 var clean = require('gulp-clean');
+var nodemon = require('gulp-nodemon');
 
 gulp.task('copy-dependency', function() {
     var assets = {
@@ -26,6 +27,13 @@ gulp.task('copy-dependency', function() {
 gulp.task('copy-font', function() {
     gulp.src(['./node_modules/font-awesome/fonts/**/*'])
         .pipe(gulp.dest('./fonts/'));
+});
+
+gulp.task('dev-server', function(){
+    nodemon({
+        script: 'server.js',
+        ext: 'js'
+    });
 });
 
 gulp.task('clean', function() {
