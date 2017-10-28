@@ -25,7 +25,7 @@ $(document).ready(function() {
 });
 
 function scrollToSpecificDiv(id) {
-    $("html body").animate({
+    $("html, body").animate({
         scrollTop: $("#" + id).offset().top - 20 }
         , 1500);
 }
