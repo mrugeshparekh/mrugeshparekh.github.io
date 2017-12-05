@@ -6,7 +6,7 @@ $(document).ready(function() {
     $(".navbar-brand, .scroll-top > a").click(function() {
         $(".nav > .page-scroll > a").parent().siblings().removeClass('active');
         var topId = $(this).attr("title");
-        $("html body").animate({
+        $("html, body").animate({
             scrollTop: 0 }
         , 1500);    
     });
