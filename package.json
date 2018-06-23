@@ -23,7 +23,7 @@
   "homepage": "https://github.com/mrugeshparekh/mrugeshparekh.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^7.2.1",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "4.1.1",
     "cssnano": "^3.10.0",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
