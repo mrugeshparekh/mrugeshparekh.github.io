@@ -6,7 +6,7 @@ body {
 
 body {
   overflow-x: hidden;
-  color: #438496
+  color: #438496 !important;
 }
 
 p {

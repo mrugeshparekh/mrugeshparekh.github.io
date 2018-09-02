@@ -4,6 +4,9 @@ import 'font-awesome/css/font-awesome.min.css';
 import Menu from './components/Menu';
 import Header from './components/Header';
 import Sections from './components/Sections';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -12,6 +15,9 @@ class App extends Component {
         <Menu />
         <Header />
         <Sections />
+        <About />
+        <Contact />
+        <Footer />
       </div>
     );
   }
