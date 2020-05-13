@@ -1,20 +1,30 @@
 {
-  "main.css": "/static/css/main.0581e23a.chunk.css",
-  "main.js": "/static/js/main.cc4a1a15.chunk.js",
-  "main.js.map": "/static/js/main.cc4a1a15.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/css/2.7e4cdad3.chunk.css": "/static/css/2.7e4cdad3.chunk.css",
-  "static/js/2.b77a595d.chunk.js": "/static/js/2.b77a595d.chunk.js",
-  "static/js/2.b77a595d.chunk.js.map": "/static/js/2.b77a595d.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.f574766821937a9193d62c755a8e6253.js": "/precache-manifest.f574766821937a9193d62c755a8e6253.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.7e4cdad3.chunk.css.map": "/static/css/2.7e4cdad3.chunk.css.map",
-  "static/css/main.0581e23a.chunk.css.map": "/static/css/main.0581e23a.chunk.css.map",
-  "static/media/index.css": "/static/media/447.0c4f4759.jpg",
-  "static/media/ENS_Logo-blue.png": "/static/media/ENS_Logo-blue.a89afcb8.png",
-  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/spacelegend.png": "/static/media/spacelegend.8476ee76.png",
-  "static/media/toycharm.png": "/static/media/toycharm.8fb9d35d.png"
+  "files": {
+    "main.css": "/static/css/main.2045629f.chunk.css",
+    "main.js": "/static/js/main.85ad714f.chunk.js",
+    "main.js.map": "/static/js/main.85ad714f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
+    "static/css/2.e75b93c4.chunk.css": "/static/css/2.e75b93c4.chunk.css",
+    "static/js/2.455e4af7.chunk.js": "/static/js/2.455e4af7.chunk.js",
+    "static/js/2.455e4af7.chunk.js.map": "/static/js/2.455e4af7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6c11cae738db366d25c2ad0892d730ff.js": "/precache-manifest.6c11cae738db366d25c2ad0892d730ff.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e75b93c4.chunk.css.map": "/static/css/2.e75b93c4.chunk.css.map",
+    "static/css/main.2045629f.chunk.css.map": "/static/css/main.2045629f.chunk.css.map",
+    "static/js/2.455e4af7.chunk.js.LICENSE.txt": "/static/js/2.455e4af7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/447.0c4f4759.jpg",
+    "static/media/ENS_Logo-blue.png": "/static/media/ENS_Logo-blue.a89afcb8.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/spacelegend.png": "/static/media/spacelegend.8476ee76.png",
+    "static/media/toycharm.png": "/static/media/toycharm.8fb9d35d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e4b9196.js",
+    "static/css/2.e75b93c4.chunk.css",
+    "static/js/2.455e4af7.chunk.js",
+    "static/css/main.2045629f.chunk.css",
+    "static/js/main.85ad714f.chunk.js"
+  ]
 }
