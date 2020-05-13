@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/ENS_Logo-blue.a89afcb8.png"
   },
   {
-    "revision": "10ce6f7ed0b324168870",
+    "revision": "cc4a1a15f3ca7c1dd355",
     "url": "/static/css/main.0581e23a.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/spacelegend.8476ee76.png"
   },
   {
-    "revision": "10ce6f7ed0b324168870",
-    "url": "/static/js/main.10ce6f7e.chunk.js"
+    "revision": "cc4a1a15f3ca7c1dd355",
+    "url": "/static/js/main.cc4a1a15.chunk.js"
   },
   {
     "revision": "0c4f475974fb4212ba6993f36dd81970",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.7e4cdad3.chunk.css"
   },
   {
-    "revision": "67545886ec186c3c49325b5857fd4767",
+    "revision": "8262307f0cccfff3239ad401c7498454",
     "url": "/index.html"
   }
 ];

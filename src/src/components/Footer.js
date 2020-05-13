@@ -14,6 +14,12 @@ class Footer extends Component {
                             <div className="footer-col col-md-4">
                                 <h3>Around the Web</h3>
                                 <ul className="list-inline">
+                                <li className="list-inline-item">
+                                        <a href="https://ca.linkedin.com/in/mrugeshparekh" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline">
+                                            <i className="fa fa-fw fa-linkedin">
+                                            </i>
+                                        </a>
+                                    </li>
                                     <li className="list-inline-item">
                                         <a href="https://www.facebook.com/mrugeshparekh" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline">
                                             <i className="fa fa-fw fa-facebook">
@@ -21,20 +27,8 @@ class Footer extends Component {
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a href="https://plus.google.com/102529926684676915831/posts" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline">
-                                            <i className="fa fa-fw fa-google-plus">
-                                            </i>
-                                        </a>
-                                    </li>
-                                    <li className="list-inline-item">
                                         <a href="https://twitter.com/mrugeshparekh" target="_blank" rel="noopener noreferrer" className="btn-social btn-outline">
                                             <i className="fa fa-fw fa-twitter">
-                                            </i>
-                                        </a>
-                                    </li>
-                                    <li className="list-inline-item">
-                                        <a href="https://ca.linkedin.com/in/mrugeshparekh" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline">
-                                            <i className="fa fa-fw fa-linkedin">
                                             </i>
                                         </a>
                                     </li>
